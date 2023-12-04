@@ -1,0 +1,79 @@
+.feedback-section {
+    background-color: rgba(125, 125, 125, 0.1);
+    padding: 40px;
+    margin: 40px 0;
+}
+
+.feedback-heading {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+.feedback-form {
+    margin: 17px 0;
+}
+
+.feedback-form-content {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.feedback-form-button {
+    background-color: #4CAF50;
+    width: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.feedback-form-button:hover {
+    background-color: #45a049;
+}
+
+.feedbacks {
+    margin-top: 20px;
+}
+
+.feedback {
+    margin-bottom: 10px;
+}
+
+.product-feedback-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+}
+
+.product-feedback-user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.product-feedback-detail {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.product-feedback-detail-username {
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+    margin: 5px 15px;
+    margin-top: 0;
+}
+
+.product-feedback-detail-content {
+    margin: 10px 15px;
+}

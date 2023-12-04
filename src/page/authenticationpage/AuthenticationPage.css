@@ -1,0 +1,184 @@
+.authentication-section {
+    background-image: url('./sign-in-up-background.png');
+    /* background-image: url('https://firebasestorage.googleapis.com/v0/b/bscswp.appspot.com/o/localImage%2Fsign-in-up-background.png?alt=media&token=b185b5da-2ee1-4f8c-9fce-464ceef94c4e'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.authentication-section .homepage-link {
+    position: absolute;
+    display: block;
+    right: 2%;
+    top: 4.7%;
+    color: rgb(0, 0, 0);
+    opacity: 0.3;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.authentication-section .homepage-link:hover {
+    opacity: 0.8;
+}
+
+.authentication-section .homepage-link::before {
+    content: '\2190';
+    font-size: 24px;
+}
+
+.authentication-container {
+    width: 27vw;
+    float: right;
+    margin-left: 59vw;
+    padding: 20px;
+}
+
+.authentication-container h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.authentication-input-container {
+    margin-bottom: 10px;
+}
+
+.authentication-input-container-label {
+    display: block;
+    color: #4CAF50;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.authentication-input {
+    background-color: aliceblue;
+    color: black;
+    width: 96%;
+    height: 18.4px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0;
+    outline: none;
+}
+
+.authentication-input::-webkit-inner-spin-button,
+.authentication-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+  padding: 0;
+}
+
+.authentication-check-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.authentication-check-sex-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.authentication-check-sex-button:checked {
+    background-color: black;
+    border: 2px solid #ccc;
+}
+
+.button-title {
+    color: black;
+    margin: 0 20px;
+    margin-left: 5px;
+}
+
+.authentication-date {
+    background-color: aliceblue;
+    color: black;
+    width: 90%;
+    height: 18.4px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0;
+    outline: none;
+}
+
+.authentication-date::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.authentication-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.authentication-button:hover {
+    background-color: #45a049;
+}
+
+.authentication-container p {
+    color: black;
+}
+
+.authentication-container a {
+    color: #4CAF50;
+}
+
+.forgot-password-link {
+    float: left;
+    padding: 0 15px;
+}
+
+.input-password {
+    display: flex;
+    align-items: center;
+    width: 101.3%;
+}
+
+.log-in-password-toggle-button,
+.sign-up-password-toggle-button,
+.confirm-password-toggle-button,
+.reset-password-toggle-button,
+.confirm-reset-password-toggle-button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    padding-top: 5px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 25vw;
+}
+
+.log-in-password-toggle-button:hover,
+.sign-up-password-toggle-button:hover,
+.confirm-password-toggle-button:hover,
+.reset-password-toggle-button:hover,
+.confirm-reset-password-toggle-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}

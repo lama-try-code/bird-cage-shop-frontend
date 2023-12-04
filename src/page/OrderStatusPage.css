@@ -1,0 +1,95 @@
+.confirm-page {
+  padding: 20px;
+  width: 100%;
+  color: black;
+}
+
+.confirm-page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.confirmed-orders {
+  width: 100%;
+}
+
+.confirmed-order {
+  border: 1px solid #ddd;
+  padding: 5x;
+  margin: 40px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.confirmed-order-id {
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px 5%;
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+
+.confirmed-order-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.confirmed-order-customer-info-section {
+  text-align: justify;
+  margin-left: 8%;
+}
+
+.confirmed-order-product {
+  text-align: justify;
+}
+
+.confirmed-order-name {
+  font-size: 18px;
+}
+
+.confirmed-order-price-status {
+  margin-right: 5%;
+}
+
+.confirmed-order-price {
+  font-weight: bold;
+  color: red;
+}
+
+.confirmed-order-description {
+  font-size: 16px;
+  color: #555;
+  flex: 1;
+  margin-left: 5px;
+}
+
+.confirmed-order-status {
+  text-align: left;
+  font-size: 17px;
+  color: #28a745;
+}
+
+.waiting-order-status {
+  text-align: left;
+  font-size: 17px;
+  color: red;
+}
+
+.empty-cart-confirm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px auto;
+}
+
+.empty-cart-confirm-img {
+  width: 30%;
+}
+
+.empty-cart-confirm-text {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: -5vw;
+}
